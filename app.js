@@ -16,7 +16,3 @@ app.use('/new',messageRouter)
 app.use('/',indexRouter);
 
 
-
-app.listen(PORT,()=>{
-    console.log(`App running on port ${PORT}`)
-})
